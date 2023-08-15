@@ -25,4 +25,3 @@ while True:
     # calculate ticket cost
     ticket_cost = calc_ticket_price(age)
     print("Age: {}, Ticket Price: ${:.2f}".format(age, ticket_cost))
-

@@ -2,7 +2,6 @@
 
 # checks that user response is not blank
 def not_blank(question):
-
     while True:
         response = input(question)
 
@@ -13,11 +12,10 @@ def not_blank(question):
             return response
 
 
-#main routine goes here
+# main routine goes here
 while True:
     name = not_blank("enter your name (or 'xxx' to quit) ")
     if name == "xxx":
         break
 
 print("We are done")
-

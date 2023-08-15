@@ -2,7 +2,6 @@
 
 # checks user enter an integer to a given question
 def num_check(question):
-
     while True:
 
         try:
@@ -11,6 +10,7 @@ def num_check(question):
 
         except ValueError:
             print("Please enter an integer.")
+
 
 # Main routine goes here
 tickets_sold = 0
@@ -26,7 +26,7 @@ while True:
 
     if 12 <= age <= 120:
         pass
-    elif age <12:
+    elif age < 12:
         print("Sorry you are too young for this movie")
         continue
     else:
