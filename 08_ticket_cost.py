@@ -1,10 +1,3 @@
-# Next Steps
-# Add currency formatting & Headings
-# integrate this component with the base component
-
-# PS: In base component remember to calculate surcharge
-# once payment method has been chosen!!
-
 import pandas
 
 
@@ -13,7 +6,7 @@ def currency(x):
     return "${:.2f}".format(x)
 
 
-# dictionaries to hold ticket details
+# lists to hold ticket details
 all_names = ["a", "b", "c", "d", "e"]
 all_ticket_costs = [7.50, 7.50, 10.50, 10.50, 6.50]
 surcharge = [0, 0, 0.53, 0.53, 0]
